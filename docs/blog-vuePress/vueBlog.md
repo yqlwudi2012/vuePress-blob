@@ -269,3 +269,28 @@ Masiku这篇文章的时候，它的侧边栏是这样的：
 
 ![侧边栏](./example.png "cebianlan")
 
+OK，接下来请随意~~蹂躏~~你的博客吧。
+
+## 发布
+博客搭建的差不多，就差最后一步了。请按照以下命令行流程依次执行
+
+```
+npm run docs:build
+```
+
+vuePress会在你的.vuepress/dist/文件夹下生成最终的发布结果
+
+```
+cd docs/.vuepress/dist
+git init
+git add -A
+git commit -m 'deploy'
+git push -f https://github.com/yourname/yourname.github.io.git master
+```
+
+~~啊，我最喜欢的git push -f~~
+
+
+好了，打开文章开头的地址，去分享自己的博客吧。
+
+今天的内容先到这里，后续我会继续分享如何用VuePress定制自己的页面。
