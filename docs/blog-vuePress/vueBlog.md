@@ -294,3 +294,5 @@ git push -f https://github.com/yourname/yourname.github.io.git master
 好了，打开文章开头的地址，去分享自己的博客吧。
 
 今天的内容先到这里，后续我会继续分享如何用VuePress定制自己的页面。
+
+这个博客的GitHub源码地址: https://github.com/yqlwudi2012/vuePress-blob.git
