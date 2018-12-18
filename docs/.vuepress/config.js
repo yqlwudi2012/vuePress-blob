@@ -30,6 +30,10 @@ module.exports = {
                 '/guide/guide',
                 'vueBlog'
             ],
+            '/jenkins/':[
+                '/guide/guide',
+                'jenkins_one'
+            ],
             '/': [
                 '',
             ]
