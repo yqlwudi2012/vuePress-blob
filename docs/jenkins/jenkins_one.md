@@ -104,8 +104,9 @@ Jenkins官方和部分社区为Jenkins本身提供了数百个插件,涵盖了�
 
 #### BlueOcean
 2016年，同交付管道一起上线的还有Jenkins BlueOcean。作为Jenkins最强大的插件之一，它提供的最大功能莫过于极大地美化了UI界面。
-
+<div align=center>
 ![dog](./dogSay.png 'dog')
+</div>
 * 清晰的可视化，对CI/CD pipelines, 可以快速直观的观察项目pipeline状态。
 * pipeline可编辑，可视化编辑pipeline，现在只能通过配置中Pipeline的Pipeline script编辑。
 * pipeline精确度，通过UI直接介入pipeline的中间问题。
@@ -120,12 +121,13 @@ Blue Ocean强化了pipeline工作流的可视化，为构建执行过程的错�
 参考[Jenkins On Docker Hub](https://github.com/jenkinsci/docker/blob/master/README.md)
 
 尽管Jenkins本身构建自由支持度很高，然而任何构建都是建立在环境之上的。如果需要构建一个maven结构的java项目，可能需要在Jenkins的机器上配置JDK 6~11的版本；如果需要构建vue或者任何webpack类型的项目，则需要配置node 8~10的环境。如果需要构建安卓项目。。
+<div align=center>
 ![8a6b180bfa5f3cdd5763d10cc4073346.png](./android.png 'Andriod')
-
+</div>
 如果需要构建Golang，Swift，OC，C#。。。
-
+<div align=center>
 ![17a7ed3a458fbec6313eb5bfff08b0f0.jpeg](./maye.jpg 'maye')
-
+</div>
 好在Docker为我们提供了一种解决思路。Jenkins本身提供了强大的Docker支持插件，Jenkins Pipeline中也支持使用Shell脚本来操作Docker。
 <mermaid>
 graph TD
