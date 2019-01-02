@@ -1,5 +1,6 @@
 ---
-home: true
+layout: gHome
+home: false
 heroImage: /dog-hashiqi.jpg
 actionText: Watch →
 actionLink: /guide/guide
